@@ -67,7 +67,7 @@
     "@radix-ui/react-toolbar": "1.0.4",
     "@reduxjs/toolkit": "1.9.7",
     "@sindresorhus/slugify": "1.1.0",
-    "@strapi/design-system": "2.0.0-rc.30",
+    "@strapi/design-system": "2.0.1",
     "@strapi/icons": "2.0.0-rc.30",
     "@strapi/types": "5.30.0",
     "@strapi/utils": "5.30.0",

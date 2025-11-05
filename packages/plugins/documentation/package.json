@@ -60,7 +60,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "1.9.7",
     "@strapi/admin": "5.30.0",
-    "@strapi/design-system": "2.0.0-rc.30",
+    "@strapi/design-system": "2.0.1",
     "@strapi/icons": "2.0.0-rc.30",
     "@strapi/utils": "5.30.0",
     "bcryptjs": "2.4.3",

@@ -43,6 +43,420 @@
     "datetime": {
       "type": "datetime"
     },
+    "datetime2": {
+      "type": "datetime"
+    },
+    "datetime3": {
+      "type": "datetime"
+    },
+    "datetime4": {
+      "type": "datetime"
+    },
+    "datetime5": {
+      "type": "datetime"
+    },
+    "datetime6": {
+      "type": "datetime"
+    },
+    "datetimeAZez": {
+      "type": "datetime"
+    },
+    "datetimeqs": {
+      "type": "datetime"
+    },
+    "datetimefd": {
+      "type": "datetime"
+    },
+    "datetimef": {
+      "type": "datetime"
+    },
+    "datetimed": {
+      "type": "datetime"
+    },
+    "datetimes": {
+      "type": "datetime"
+    },
+    "datetimec": {
+      "type": "datetime"
+    },
+    "datetimex": {
+      "type": "datetime"
+    },
+    "datetimew": {
+      "type": "datetime"
+    },
+    "datetimez": {
+      "type": "datetime"
+    },
+    "datetimee": {
+      "type": "datetime"
+    },
+    "datetimer": {
+      "type": "datetime"
+    },
+    "datetimet": {
+      "type": "datetime"
+    },
+    "datetimey": {
+      "type": "datetime"
+    },
+    "datetimeu": {
+      "type": "datetime"
+    },
+    "datetimei": {
+      "type": "datetime"
+    },
+    "datetimeo": {
+      "type": "datetime"
+    },
+    "datetimel": {
+      "type": "datetime"
+    },
+    "datetimem": {
+      "type": "datetime"
+    },
+    "datetimevc": {
+      "type": "datetime"
+    },
+    "datetimesqs": {
+      "type": "datetime"
+    },
+    "datetimeb": {
+      "type": "datetime"
+    },
+    "datetimen": {
+      "type": "datetime"
+    },
+    "datetimecx": {
+      "type": "datetime"
+    },
+    "datetime2qsd": {
+      "type": "datetime"
+    },
+    "datetimefgsd": {
+      "type": "datetime"
+    },
+    "datetimeg": {
+      "type": "datetime"
+    },
+    "datetime2": {
+      "type": "datetime"
+    },
+    "datetime2_01": {
+      "type": "datetime"
+    },
+    "datetime2_02": {
+      "type": "datetime"
+    },
+    "datetime2_03": {
+      "type": "datetime"
+    },
+    "datetime2_04": {
+      "type": "datetime"
+    },
+    "datetime2_05": {
+      "type": "datetime"
+    },
+    "datetime2_06": {
+      "type": "datetime"
+    },
+    "datetime2_07": {
+      "type": "datetime"
+    },
+    "datetime2_08": {
+      "type": "datetime"
+    },
+    "datetime2_09": {
+      "type": "datetime"
+    },
+    "datetime2_10": {
+      "type": "datetime"
+    },
+    "datetime2_11": {
+      "type": "datetime"
+    },
+    "datetime2_12": {
+      "type": "datetime"
+    },
+    "datetime2_13": {
+      "type": "datetime"
+    },
+    "datetime2_14": {
+      "type": "datetime"
+    },
+    "datetime2_15": {
+      "type": "datetime"
+    },
+    "datetime2_16": {
+      "type": "datetime"
+    },
+    "datetime2_17": {
+      "type": "datetime"
+    },
+    "datetime2_18": {
+      "type": "datetime"
+    },
+    "datetime2_19": {
+      "type": "datetime"
+    },
+    "datetime2_20": {
+      "type": "datetime"
+    },
+    "datetime2_21": {
+      "type": "datetime"
+    },
+    "datetime2_22": {
+      "type": "datetime"
+    },
+    "datetime2_23": {
+      "type": "datetime"
+    },
+    "datetime2_24": {
+      "type": "datetime"
+    },
+    "datetime2_25": {
+      "type": "datetime"
+    },
+    "datetime2_26": {
+      "type": "datetime"
+    },
+    "datetime2_27": {
+      "type": "datetime"
+    },
+    "datetime2_28": {
+      "type": "datetime"
+    },
+    "datetime2_29": {
+      "type": "datetime"
+    },
+    "datetime2_30": {
+      "type": "datetime"
+    },
+    "datetime2ntrhernhth": {
+      "type": "datetime"
+    },
+    "datetime2fevzafvzzfe": {
+      "type": "datetime"
+    },
+    "datetime2fvazevfzev": {
+      "type": "datetime"
+    },
+    "datetime2geregerv": {
+      "type": "datetime"
+    },
+    "datetime2ergerg": {
+      "type": "datetime"
+    },
+    "datetime2zefgergerzefze": {
+      "type": "datetime"
+    },
+    "datetime2ezfezfzefze": {
+      "type": "datetime"
+    },
+    "datetime2fzefzefzef": {
+      "type": "datetime"
+    },
+    "datetime2fefezfzefez": {
+      "type": "datetime"
+    },
+    "datetime2thhrhtrgz": {
+      "type": "datetime"
+    },
+    "datetime2kyukyu": {
+      "type": "datetime"
+    },
+    "datetime2kuykuy": {
+      "type": "datetime"
+    },
+    "datetime2jtyktyk": {
+      "type": "datetime"
+    },
+    "datetime2jtyjtyjyt": {
+      "type": "datetime"
+    },
+    "datetime2tyjtyjty": {
+      "type": "datetime"
+    },
+    "datetime2jtyjtyjty": {
+      "type": "datetime"
+    },
+    "datetime2htrhtrhrt": {
+      "type": "datetime"
+    },
+    "datetime2thtrhtrh": {
+      "type": "datetime"
+    },
+    "datetime2fzefez": {
+      "type": "datetime"
+    },
+    "datetime2t": {
+      "type": "datetime"
+    },
+    "datetime2thrhrthrt": {
+      "type": "datetime"
+    },
+    "datetime2regergergr": {
+      "type": "datetime"
+    },
+    "datetime2ttergrg": {
+      "type": "datetime"
+    },
+    "datetime2rtgerre": {
+      "type": "datetime"
+    },
+    "datetime2fezfzefzefgdfg": {
+      "type": "datetime"
+    },
+    "datetime2regerger": {
+      "type": "datetime"
+    },
+    "datetime2jyjytjty": {
+      "type": "datetime"
+    },
+    "datetime2erghreger": {
+      "type": "datetime"
+    },
+    "datetime2jytytjtyj": {
+      "type": "datetime"
+    },
+    "datetime2ht": {
+      "type": "datetime"
+    },
+    "datetime2ezefzef": {
+      "type": "datetime"
+    },
+    "datetime2hthrth": {
+      "type": "datetime"
+    },
+    "datetime2fzefefze": {
+      "type": "datetime"
+    },
+    "datetime2jrttjt": {
+      "type": "datetime"
+    },
+    "datetime2ezfzefe": {
+      "type": "datetime"
+    },
+    "datetime2htrhtr": {
+      "type": "datetime"
+    },
+    "datetime2zefzefze": {
+      "type": "datetime"
+    },
+    "datetime2hthrt": {
+      "type": "datetime"
+    },
+    "datetime2fzefzef": {
+      "type": "datetime"
+    },
+    "datetime2greger": {
+      "type": "datetime"
+    },
+    "datetime2gerger": {
+      "type": "datetime"
+    },
+    "datetime2grgre": {
+      "type": "datetime"
+    },
+    "datetime278285": {
+      "type": "datetime"
+    },
+    "datetime23787832": {
+      "type": "datetime"
+    },
+    "datetime278578678687": {
+      "type": "datetime"
+    },
+    "datetime278378578": {
+      "type": "datetime"
+    },
+    "datetime237378": {
+      "type": "datetime"
+    },
+    "datetime21717": {
+      "type": "datetime"
+    },
+    "datetime269369": {
+      "type": "datetime"
+    },
+    "datetime269629": {
+      "type": "datetime"
+    },
+    "datetime26868": {
+      "type": "datetime"
+    },
+    "datetime25757": {
+      "type": "datetime"
+    },
+    "datetime27474": {
+      "type": "datetime"
+    },
+    "datetime27717": {
+      "type": "datetime"
+    },
+    "datetime267862": {
+      "type": "datetime"
+    },
+    "datetime23837": {
+      "type": "datetime"
+    },
+    "datetime2786786": {
+      "type": "datetime"
+    },
+    "datetime2698": {
+      "type": "datetime"
+    },
+    "datetime26786": {
+      "type": "datetime"
+    },
+    "datetime2453": {
+      "type": "datetime"
+    },
+    "datetime2123": {
+      "type": "datetime"
+    },
+    "datetime2586": {
+      "type": "datetime"
+    },
+    "datetime2576": {
+      "type": "datetime"
+    },
+    "datetime2474": {
+      "type": "datetime"
+    },
+    "datetime287": {
+      "type": "datetime"
+    },
+    "datetime247": {
+      "type": "datetime"
+    },
+    "datetime274": {
+      "type": "datetime"
+    },
+    "datetime257": {
+      "type": "datetime"
+    },
+    "datetime29": {
+      "type": "datetime"
+    },
+    "datetime26": {
+      "type": "datetime"
+    },
+    "datetime28": {
+      "type": "datetime"
+    },
+    "datetime25": {
+      "type": "datetime"
+    },
+    "datetime27": {
+      "type": "datetime"
+    },
+    "datetime24": {
+      "type": "datetime"
+    },
+    "datetime21": {
+      "type": "datetime"
+    },
     "time": {
       "type": "time"
     },

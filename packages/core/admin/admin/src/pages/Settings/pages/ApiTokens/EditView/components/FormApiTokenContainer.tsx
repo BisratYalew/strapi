@@ -107,7 +107,7 @@ export const FormApiTokenContainer = ({
               onChange={onChange}
             />
           </Grid.Item>
-          <Grid.Item key="lifespan" col={6} xs={12} direction="column" alignItems="stretch">
+          <Grid.Item key="lifespan" col={6} m={6} xs={12} direction="column" alignItems="stretch">
             <LifeSpanInput
               isCreating={isCreating}
               error={errors['lifespan']}
@@ -117,7 +117,7 @@ export const FormApiTokenContainer = ({
             />
           </Grid.Item>
 
-          <Grid.Item key="type" col={6} xs={12} direction="column" alignItems="stretch">
+          <Grid.Item key="type" col={6} m={6} xs={12} direction="column" alignItems="stretch">
             <TokenTypeSelect
               value={values['type']}
               error={errors['type']}

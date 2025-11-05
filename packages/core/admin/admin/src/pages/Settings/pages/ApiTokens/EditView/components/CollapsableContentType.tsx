@@ -115,6 +115,8 @@ export const CollapsableContentType = ({
                   controller?.actions.map((action) => {
                     return (
                       <Grid.Item
+                        xs={12}
+                        s={6}
                         col={6}
                         key={action.actionId}
                         direction="column"

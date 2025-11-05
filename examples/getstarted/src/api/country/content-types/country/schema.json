@@ -51,6 +51,17 @@
     },
     "visible": {
       "type": "boolean"
+    },
+    "ttes": {
+      "type": "time",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": false,
+      "unique": false,
+      "default": "00:00:00.000"
     }
   }
 }
