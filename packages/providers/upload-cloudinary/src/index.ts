@@ -77,7 +77,8 @@ export default {
             });
           }
 
-          file.url = image.secure_url;
+          file.url = result.url || result.secure_url;
+
           file.provider_metadata = {
             public_id: image.public_id,
             resource_type: image.resource_type,
