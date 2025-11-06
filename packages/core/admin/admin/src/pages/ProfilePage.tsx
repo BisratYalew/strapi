@@ -231,7 +231,7 @@ const ProfilePage = () => {
           )}
         </Form>
         {isDesktop && (
-          <Box>
+          <Box paddingBottom={6}>
             <Layouts.Content>
               <GuidedTourSection />
             </Layouts.Content>

@@ -257,14 +257,7 @@ const DynamicComponent = ({
                           return null; // Skip rendering the entire grid row
                         }
                         return (
-                          <Grid.Item
-                            col={12}
-                            key={rowInd}
-                            s={12}
-                            xs={12}
-                            direction="column"
-                            alignItems="stretch"
-                          >
+                          <Grid.Item key={rowInd} xs={12} direction="column" alignItems="stretch">
                             <ResponsiveGridRoot gap={4}>
                               {visibleFields.map(({ size, ...field }) => {
                                 const fieldName = `${name}.${index}.${field.name}`;

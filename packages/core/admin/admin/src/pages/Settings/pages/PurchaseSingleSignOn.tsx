@@ -127,7 +127,7 @@ const PurchaseSingleSignOn = () => {
                     width: '100%',
                     height: '100%',
                     objectFit: 'cover',
-                    objectPosition: 'bottom left',
+                    objectPosition: 'bottom 50%',
                   }}
                 />
               </div>

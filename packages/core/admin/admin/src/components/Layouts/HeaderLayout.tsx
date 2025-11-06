@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import { Box, Flex, Typography, TypographyProps, useCallbackRef } from '@strapi/design-system';
+import { Box, Flex, Typography, TypographyProps } from '@strapi/design-system';
 
 import { HEIGHT_TOP_NAVIGATION, RESPONSIVE_DEFAULT_SPACING } from '../../constants/theme';
 import { useDeviceType } from '../../hooks/useDeviceType';
@@ -129,24 +129,37 @@ const HeaderLayout = (props: HeaderLayoutProps) => {
     threshold: 0,
   });
 
-  useResizeObserver([containerRef], () => {
-    if (containerRef.current) {
-      const newSize = containerRef.current.getBoundingClientRect();
-      setHeaderSize((prevSize) => {
-        // Only update if size actually changed
-        if (!prevSize || prevSize.height !== newSize.height || prevSize.width !== newSize.width) {
-          return newSize;
-        }
-        return prevSize;
-      });
-    }
-  });
+  // Update size when header element becomes available or changes
+  React.useLayoutEffect(() => {
+    const updateSize = () => {
+      if (baseHeaderLayoutRef.current) {
+        const newSize = baseHeaderLayoutRef.current.getBoundingClientRect();
+        setHeaderSize((prevSize) => {
+          if (!prevSize || prevSize.height !== newSize.height || prevSize.width !== newSize.width) {
+            return newSize;
+          }
+          return prevSize;
+        });
+      }
+    };
 
-  React.useEffect(() => {
-    if (containerRef.current) {
-      setHeaderSize(containerRef.current.getBoundingClientRect());
+    // Initial size
+    updateSize();
+
+    // Observe the header element for size changes
+    const resizeObserver = new ResizeObserver(updateSize);
+    if (baseHeaderLayoutRef.current) {
+      resizeObserver.observe(baseHeaderLayoutRef.current);
     }
-  }, [containerRef]);
+
+    // Also listen to window resize
+    window.addEventListener('resize', updateSize);
+
+    return () => {
+      resizeObserver.disconnect();
+      window.removeEventListener('resize', updateSize);
+    };
+  }, [isVisible]); // Re-run when visibility changes to re-observe the element
 
   if (deviceType === 'mobile') {
     return <BaseHeaderLayout {...props} />;
@@ -164,34 +177,6 @@ const HeaderLayout = (props: HeaderLayoutProps) => {
 };
 
 HeaderLayout.displayName = 'HeaderLayout';
-
-/**
- * useResizeObserver: hook that observes the size of an element and calls a callback when it changes.
- */
-const useResizeObserver = (
-  sources: React.RefObject<HTMLElement> | React.RefObject<HTMLElement>[],
-  onResize: ResizeObserverCallback
-) => {
-  const handleResize = useCallbackRef(onResize);
-
-  React.useLayoutEffect(() => {
-    const resizeObs = new ResizeObserver(handleResize);
-
-    if (Array.isArray(sources)) {
-      sources.forEach((source) => {
-        if (source.current) {
-          resizeObs.observe(source.current);
-        }
-      });
-    } else if (sources.current) {
-      resizeObs.observe(sources.current);
-    }
-
-    return () => {
-      resizeObs.disconnect();
-    };
-  }, [sources, handleResize]);
-};
 
 export type { HeaderLayoutProps, BaseHeaderLayoutProps };
 export { HeaderLayout, BaseHeaderLayout };

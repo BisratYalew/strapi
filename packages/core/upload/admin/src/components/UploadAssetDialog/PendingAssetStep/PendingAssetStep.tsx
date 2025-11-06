@@ -149,7 +149,14 @@ export const PendingAssetStep = ({
 
                 if (uploadStatus === Status.Uploading || uploadStatus === Status.Intermediate) {
                   return (
-                    <Grid.Item col={4} key={assetKey} direction="column" alignItems="stretch">
+                    <Grid.Item
+                      m={4}
+                      s={6}
+                      xs={12}
+                      key={assetKey}
+                      direction="column"
+                      alignItems="stretch"
+                    >
                       <UploadingAssetCard
                         // Props used to store the newly uploaded files
                         addUploadedFiles={addUploadedFiles!}
@@ -165,7 +172,14 @@ export const PendingAssetStep = ({
                 }
 
                 return (
-                  <Grid.Item col={4} key={assetKey} direction="column" alignItems="stretch">
+                  <Grid.Item
+                    m={4}
+                    s={6}
+                    xs={12}
+                    key={assetKey}
+                    direction="column"
+                    alignItems="stretch"
+                  >
                     <AssetCard
                       asset={asset}
                       size="S"
